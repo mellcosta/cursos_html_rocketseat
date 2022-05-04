@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aninhamento de Tags</title>
+    <style>    
+
+        body{
+            font: normal 15pt times;
+            background: brown;
+            color: rgba(209, 241, 177, 0.892);
+        }
+            h1{
+    color: rgb(146, 222, 32);
+        }
+
+
+    </style>
+</head>
+<body>
+   <h1>Aninhamento de Tags</h1>
+
+<p>O processo de alocar uma tag dentro de outra é chamado <strong>aninhamento.</strong> </p> 
+Quando as tags estão aninhadas:
+<li>As de fora são as <strong>parents (<em>pais</em>) </strong></li>
+<li>As que ficam dentro são chamadas <strong>tags children ( <em>filhas</em> )</strong></li>    
+<br>
+Ex:
+<div>
+<p> 
+    <+div> <br> 
+  ..................<+p><br>
+ ..............................<+em> <br>
+................................................<+strong> <br> 
+                                    <br>
+................................................<+/strong> <br> 
+..............................<+/em> <br> 
+.................... <+/p> <br> 
+    <+/div>
+   
+       
+    
+<p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atributos</title>
+   <style>
+       body{
+           font: normal 22pt times;
+           background: pink;
+           color:blueviolet;
+       }
+       h1{
+           color: rgb(132, 0, 255);
+       }
+       h2{
+           color: rgb(132, 0, 255);
+       }
+       p{
+           color: rgb(66, 37, 94);
+       }
+      
+       div{
+           color: blue;
+       }
+       footer{
+           
+           color: rgb(0, 0, 0);
+       }
+
+   </style>
+</head>
+<body>
+  
+  <h1>Atributos</h1> 
+
+  <p>Contêm:</p>  
+
+-Informações extras <br>
+-Configurações <br> 
+<p>Ex: </p> <*img src="nome do atributo" alt="texto alternativo">
+
+ <p>Podem ser:</p> 
+ -Globais <br>
+ -Específicos <br>
+
+ <p title="Atributos booleanos não precisam de conteúdo">*On-mouse-on para ver a definição</p> 
+
+<h2 title="São aplicados a todas as tags">Atributos Globais*</h2>
+<p> 
+    -Os mais utilizados são:
+</p>
+
+<p>
+*
+<li title="classifica os elementos na mesma classe">class= "" </li> 
+<li title="edita o conteúdo na webpage temporariamente">conteditable="true/false" </li>
+<li title="o * pode ser qualquer nome (id,list)">data-* ="": </li>
+<li title="faz a div desasparecer">hidden : </li>
+<li title="Identificador que não deve ser repetido">id=""  </li>
+<li title="coloca um css">style="" </li>
+<li title="ao clicar tab ele selecciona a ordem de início e fim indicada pelo número *">tabindex="*" </li>
+<li title="faz a descrição da palavra ao descansar o mouse sobre ela">title="" </li>
+
+</p>
+
+<div class="global" tabindex="2">
+    Conteúdo 1
+</div>
+
+<div class="global" contenteditable="true" tabindex="3">
+    Conteúdo 2
+</div>
+
+<div data-list="o que faz afinal?" hidden>
+    Conteúdo 3
+</div>
+
+<div id="cont1" style="color: rgb(207, 56, 212);">
+    Conteúdo 4
+</div>
+
+<div tabindex="1" title=" a orden de tab é 5, 1, 2">
+    Conteúdo 5*
+</div>
+<br>
+<footer> 
+Para aceder a outros atributos globais clique 
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Global_attributes"> 
+    Aqui
+</a>
+</footer>
+ 
+
+</body>
+</html>
