@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+<style>
+
+    body{
+        background-color:rosybrown;
+        color: rgb(43, 36, 25);
+
+    }
+    table{
+        background-color: white;
+        width: 100px;
+        height: 100px;
+    }
+    h1{
+        font: normal 50pt times;
+        color: rgba(242, 240, 194, 0.712);
+    }
+    h2{
+        font: normal 45pt times;
+        color: rgba(242, 240, 194, 0.712);
+    }
+    p{
+        font: normal 25pt times;
+    }
+    caption{
+        font: normal 20pt times;
+        background-color: rgb(172, 166, 166) ;
+    }
+
+    thead{
+        font: normal 25pt times;
+    }
+    tbody{
+        font: normal 20pt times;
+    }
+    tfoot{
+       font: normal 15pt arial
+    }
+ 
+    a{
+        font: normal 40pt times;
+        color: rgb(42, 48, 54);
+    }
+</style>
+
+</head>
+<body>
+    
+<h1>Tabelas</h1>
+
+    <p>
+        As tabelas permitem visualizar facilmente os dados, 
+        além de assegurar uma rápida acessibilidade na sua leitura
+        através das suas linhas e colunas.
+        <br>
+        Consequentemente, tornam-se pouco flexíveis e precisam de 
+        ser estilizadas para melhor visialização, sendo pouco utilizada nacriação de layout. 
+    </p>
+
+<h2 title="tag para criação de tabelas"> &lt;table&gt; </h2>
+
+    <p>
+        A tag &lt;table&gt; permite a criação de tabelas em html.
+        <br>
+        Estas tabelas podem ser:
+    </p> 
+    <a href="simples.html" target="_blank" >
+        <li>Tabela simples</li>
+    </a>
+
+<table>
+ <caption>Registro de idades</caption>
+   <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Mayk</td>
+            <td>35</td>
+        </tr>
+
+        <tr>
+            <td>Diego</td>
+            <td>25</td>
+        </tr>
+    
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td>Total=</td>
+            <td>2</td>
+        </tr>
+    </tfoot>
+
+</table>
+
+<a href="complexa.html" target="_blank" >
+    <li>Tabela complexa</li>
+</a>
+
+<table>
+ <caption>Lista de produtos Produzidos e Vendidos</caption>
+
+  <colgroup>
+
+        <col style="background-color:rgba(190, 96, 96, 0.797) ;">
+        <col span="2" style="background-color:rgba(100, 175, 183, 0.579);">
+        <col span="2" style="background-color:rgba(176, 183, 100, 0.579);">
+
+  </colgroup>
+
+    <thead>
+         <tr>
+             <th rowspan="2"></th>
+             <th colspan="2" scope="colgroup" > Melissa Trading </th>
+             <th colspan="2" scope="colgroup" > TecMicro </th>
+         </tr>
+     </thead>
+ 
+     <tbody>
+         <tr>
+             <th></th>
+             <th scope="col" >Produzidos</th>
+             <th scope="col" >Vendidos</th>
+             <th scope="col" >Produzidos</th>
+             <th scope="col" >Vendidos</th>
+         </tr>
+         <tr>
+             <th scope="row" >Arduino</th>
+             <td>10</td>
+             <td>5</td>
+             <td>12</td>
+             <td>8</td>
+         </tr>
+ 
+         <tr>
+            <th scope="row" >Cabo UTP</th>
+             <td>25</td>
+             <td>20</td>
+             <td>18</td>
+             <td>7</td>
+         </tr>
+
+         <tr>
+            <th scope="row" >Jumpers</th>
+            <td>100</td>
+            <td>95</td>
+            <td>100</td>
+            <td>40</td>
+        </tr>
+     
+     </tbody>
+ 
+     <tfoot>
+         <tr>
+            <th scope="row" >Total=</th>
+             <td>135</td>
+             <td>120</td>
+             <td>130</td>
+             <td>55</td>
+         </tr>
+     </tfoot>
+ 
+ </table>
+
+</body>
+</html>

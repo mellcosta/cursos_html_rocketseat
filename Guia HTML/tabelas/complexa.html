@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela complexa</title>
+
+     <style>
+
+        body{
+            background-color:rgb(20, 5, 30);
+    
+        }
+        table{
+            background-color: white;
+            width: 100px;
+            height: 100px;
+    
+        }
+        h1{
+            font: normal 40pt times;
+            color: rgb(228, 175, 90);
+        }
+        p{
+            font: normal 25pt times;
+            color:rgb(243, 249, 255)
+        }
+        caption{
+            font: normal 30pt times;
+            background-color: rgb(172, 166, 166) ;
+            text-align: center;
+        }
+    
+        thead{
+            font: normal 50pt times;
+        }
+        tbody{
+            font: normal 45pt times;
+        }
+        tfoot{
+           font: normal 40pt arial
+        }
+     
+        a{
+            font: normal 40pt times;
+            color: rgb(121, 194, 214);
+        }
+       </style>
+
+</head>
+<body>
+
+
+    <h1>*Estrutura da tabela complexa*</h1>
+<p>
+    &lt;table>
+<br>
+
+&nbsp; &lt;caption> Lista de produtos Produzidos e Vendidos &lt;/caption>
+<br>
+
+&nbsp; &nbsp; &lt;colgroup>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;col style="background-color:pink ;">
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;col span="2" style="background-color:blue;">
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;col span="2" style="background-color:yellow;">
+<br>
+&nbsp; &nbsp; &lt;/colgroup>
+<br>
+
+&nbsp; &nbsp; &lt;thead>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;tr>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;th> rowspan="2">&lt;/th>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;th> colspan="2" scope="colgroup" > Melissa Trading &lt;/th>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;th> colspan="2" scope="colgroup" > TecMicro &lt;/th>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp;  &lt;/tr>
+<br>
+&nbsp; &nbsp; &lt;/thead>
+<br>
+<br>
+&nbsp; &nbsp; &lt;tbody>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;th>&lt;/th>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;th> scope="col" >Produzidos &lt;/th>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;th> scope="col" >Vendidos &lt;/th>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;th> scope="col" >Produzidos &lt;/th>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;th> scope="col" >Vendidos &lt;/th>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp;  &lt;/tr>
+<br>
+
+&nbsp; &nbsp; &nbsp; &nbsp;  &lt;tr>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;th> scope="row" >Arduino &lt;/th>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td> 10 &lt;/td>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td> 5 &lt;/td>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td> 12 &lt;/td>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td> 8 &lt;/td>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;/tr>
+<br>
+
+&nbsp; &nbsp; &nbsp; &nbsp;  &lt;tr>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;th> scope="row" > Cabo UTP &lt;/th>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td> 25 &lt;/td>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td> 20 &lt;/td>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td> 18 &lt;/td>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td> 7 &lt;/td>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;/tr>
+<br>
+
+&nbsp; &nbsp; &nbsp; &nbsp;  &lt;tr>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;th> scope="row" > Jumpers &lt;/th>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td> 100 &lt;/td>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td> 95 &lt;/td>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td> 100 &lt;/td>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td> 40 &lt;/td>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;/tr>
+<br>
+
+&nbsp; &nbsp; &lt;/tbody>
+<br>
+<br>
+&nbsp; &nbsp; &lt;tfoot>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;tr>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;th> scope="row" > Total &lt;/th>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td> 135 &lt;/td>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td> 120 &lt;/td>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td> 130 &lt;/td>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td> 55 &lt;/td>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp;  &lt;/tr>
+<br>
+&nbsp; &nbsp; &lt;/tfoot>
+<br>
+    &lt;/table>
+</p>
+   <a href="tabelas.html">
+        >Tabela complexa
+    </a>
+    <table>
+        <caption>Lista de produtos Produzidos e Vendidos</caption>
+       
+         <colgroup>
+       
+               <col style="background-color:rgba(190, 96, 96, 0.797) ;">
+               <col span="2" style="background-color:rgba(100, 175, 183, 0.579);">
+               <col span="2" style="background-color:rgba(176, 183, 100, 0.579);">
+       
+         </colgroup>
+       
+           <thead>
+                <tr>
+                    <th rowspan="2"></th>
+                    <th colspan="2" scope="colgroup" > Melissa Trading </th>
+                    <th colspan="2" scope="colgroup" > TecMicro </th>
+                </tr>
+            </thead>
+        
+            <tbody>
+                <tr>
+                    <th></th>
+                    <th scope="col" >Produzidos</th>
+                    <th scope="col" >Vendidos</th>
+                    <th scope="col" >Produzidos</th>
+                    <th scope="col" >Vendidos</th>
+                </tr>
+                <tr>
+                    <th scope="row" >Arduino</th>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>12</td>
+                    <td>8</td>
+                </tr>
+        
+                <tr>
+                   <th scope="row" >Cabo UTP</th>
+                    <td>25</td>
+                    <td>20</td>
+                    <td>18</td>
+                    <td>7</td>
+                </tr>
+       
+                <tr>
+                   <th scope="row" >Jumpers</th>
+                   <td>100</td>
+                   <td>95</td>
+                   <td>100</td>
+                   <td>40</td>
+               </tr>
+            
+            </tbody>
+        
+            <tfoot>
+                <tr>
+                   <th scope="row" >Total=</th>
+                    <td>135</td>
+                    <td>120</td>
+                    <td>130</td>
+                    <td>55</td>
+                </tr>
+            </tfoot>
+        
+        </table>     
+     </table>
+     
+</body>
+</html>

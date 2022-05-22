@@ -1,0 +1,21 @@
+body{
+    font: normal 30pt times;
+    background-color: rgb(1, 15, 49);
+    color: rgb(255, 255, 255);
+}
+strong{
+    font: italic 28pt times;
+    color: wheat;
+}
+h1{
+    color: wheat;
+}
+em{
+    font: 15pt times;
+}
+dt{
+    color: wheat;
+}
+div{
+    color: rosybrown
+}
