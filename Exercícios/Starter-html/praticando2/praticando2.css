@@ -1,0 +1,14 @@
+div{
+    background: linear-gradient(white,aqua, blue);
+    background-clip: padding-box;
+    width: 1000px;
+    height: 500px;
+    font: normal 20pt arial;
+    border: double 10px;
+}
+h1{
+    color: blue
+}
+img{
+    background-clip: padding-box;
+}
