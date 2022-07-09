@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contacto</title>
+    <link rel="stylesheet" href="cform.css">
+
+</head>
+<body>
+    
+<form action="">
+    <fieldset>
+        <legend>Contacto</legend>
+
+        <div>
+            <label for="name">Nome:</label>
+            <input id="name" type="text" name="name">
+        </div>
+<br>
+        <label>
+                Email:
+            <input type="email"
+            placeholder="Digite o seu email"
+            required
+            pattern=".+@gmail\.com"
+            title="Digite o email no formato user@gmail.com">
+        </label>
+<br>
+<br>
+        <label for="message" >Mensagem: </label>
+<br>
+        <textarea
+            id="message"
+            name="message"
+            rows="10" 
+            cols="32"
+            placeholder="Escreva a sua mensagem">
+        </textarea>
+<br>
+        <button type="reset">Enviar</button>
+    </fieldset>
+</form>
+
+</body>
+</html>
