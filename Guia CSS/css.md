@@ -18,7 +18,9 @@ HTML                        CSS
 
 Comentários em CSS:
 */ são feitos entre estes recursos */
+
 ```
+[Praticando HTML, CSS E JS](https://codepen.io/pen/)
 
 <br>
 
@@ -118,6 +120,7 @@ strong
 ````
 @import url(https://local.com/style.css)
 ````
+[Adiconando CSS](https://font.google.com)
 
 <br>
 
@@ -220,8 +223,8 @@ keyframes *nameOfAnimation {
 
 ## Consulta
 
-* <a href="https://codepen.io/pen/"> Praticando </a>
-* <a href="https://font.google.com"> Adicionando Css </a>
+* [Praticando HTML, CSS E JS](https://codepen.io/pen/)
+* [Adiconando CSS](https://font.google.com)
 
 
 

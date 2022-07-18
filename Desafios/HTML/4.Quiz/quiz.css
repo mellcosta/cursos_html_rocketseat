@@ -1,0 +1,14 @@
+body{
+    font-size: 30pt;
+    background-image: url(../../assets/naruto.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 20% 30%;
+    background-position: top right;
+    background-color: rgb(255, 200, 129);
+}
+
+a{
+    color:rgb(0, 0, 0);
+    font-size: 40pt;
+}
