@@ -95,10 +95,29 @@ Você pode escolher qual o tema do quiz.
 Modelo Proposto
 ```
 
-![Modelo do Quiz](../cursos_html_rocketseat/assets/quiz.png)
+![Modelo do Quiz](./assets/quiz.png)
 
 ```
 Mel Design
 ```
-![Meu Quiz](../cursos_html_rocketseat/assets/narutoQuiz.PNG)
+![Meu Quiz](./assets/narutoQuiz.PNG)
+
+## 5. Blog Post
+
+### 💻 Sobre o desafio
+
+---
+
+Nesse desafio você deve criar a estrutura **HTML** para a página de post de um blog.
+
+```
+Modelo Proposto
+```
+
+![Modelo do Blog Post](./assets/blogPost.png)
+
+```
+Mel Design
+```
+![Meu Blog Post](./assets/coffeeBlog.PNG)
 
