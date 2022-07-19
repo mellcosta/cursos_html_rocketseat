@@ -17,12 +17,12 @@ Nesse desafio você deve criar um glossário com no mínimo 4 tags HTML e suas d
 Modelo Proposto
 ```
 
-![Modelo do Glossário](../cursos_html_rocketseat/assets/gloss.png)
+![Modelo do Glossário](./assets/gloss.png)
 
 ```
 Mel Design
 ```
-![Meu Glossário](../cursos_html_rocketseat/assets/glossaryMel.png)
+![Meu Glossário](./assets/glossaryMel.png)
 
 ---
 ---
@@ -42,12 +42,12 @@ Para esse desafio, recomendamos que você assista ao curso [Formulários de Outr
 Modelo Proposto
 ```
 
-![Modelo do Formulário](../cursos_html_rocketseat/assets/form-contato.png)
+![Modelo do Formulário](./assets/form-contato.png)
 
 ```
 Mel Design
 ```
-![Meu Formulário](../cursos_html_rocketseat/assets/formContactMel.png)
+![Meu Formulário](./assets/formContactMel.png)
 
 ---
 ---
@@ -67,12 +67,12 @@ Pode ser uma lista de compras de mercado, uma lista de itens que você deseja co
 Modelo Proposto
 ```
 
-![Modelo da Lista de Compras](../cursos_html_rocketseat/assets/shopping-list.png)
+![Modelo da Lista de Compras](./assets/shopping-list.png)
 
 ```
 Mel Design
 ```
-![Minha Lista de Compras](../cursos_html_rocketseat/assets/listaComprasMel.png)
+![Minha Lista de Compras](./assets/listaComprasMel.png)
 
 ---
 ---
