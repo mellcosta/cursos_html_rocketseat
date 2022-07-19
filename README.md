@@ -17,12 +17,12 @@ Nesse desafio você deve criar um glossário com no mínimo 4 tags HTML e suas d
 Modelo Proposto
 ```
 
-![Modelo do Glossário](../cursos_html_rocketseat/Desafios/assets/gloss.png)
+![Modelo do Glossário](../cursos_html_rocketseat/assets/gloss.png)
 
 ```
 Mel Design
 ```
-![Meu Glossário](../cursos_html_rocketseat/Desafios/assets/glossaryMel.png)
+![Meu Glossário](../cursos_html_rocketseat/assets/glossaryMel.png)
 
 ---
 ---
@@ -42,12 +42,12 @@ Para esse desafio, recomendamos que você assista ao curso [Formulários de Outr
 Modelo Proposto
 ```
 
-![Modelo do Formulário](../cursos_html_rocketseat/Desafios/assets/form-contato.png)
+![Modelo do Formulário](../cursos_html_rocketseat/assets/form-contato.png)
 
 ```
 Mel Design
 ```
-![Meu Formulário](../cursos_html_rocketseat/Desafios/assets/formContactMel.png)
+![Meu Formulário](../cursos_html_rocketseat/assets/formContactMel.png)
 
 ---
 ---
@@ -67,12 +67,12 @@ Pode ser uma lista de compras de mercado, uma lista de itens que você deseja co
 Modelo Proposto
 ```
 
-![Modelo da Lista de Compras](../cursos_html_rocketseat/Desafios/assets/shopping-list.png)
+![Modelo da Lista de Compras](../cursos_html_rocketseat/assets/shopping-list.png)
 
 ```
 Mel Design
 ```
-![Minha Lista de Compras](../cursos_html_rocketseat/Desafios/assets/listaComprasMel.png)
+![Minha Lista de Compras](../cursos_html_rocketseat/assets/listaComprasMel.png)
 
 ---
 ---
@@ -95,10 +95,10 @@ Você pode escolher qual o tema do quiz.
 Modelo Proposto
 ```
 
-![Modelo do Quiz](../cursos_html_rocketseat/Desafios/assets/quiz.png)
+![Modelo do Quiz](../cursos_html_rocketseat/assets/quiz.png)
 
 ```
 Mel Design
 ```
-![Meu Quiz](../cursos_html_rocketseat/Desafios/assets/narutoQuiz.PNG)
+![Meu Quiz](../cursos_html_rocketseat/assets/narutoQuiz.PNG)
 
