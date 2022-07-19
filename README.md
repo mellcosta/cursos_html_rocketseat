@@ -3,6 +3,7 @@
 > A ROCKETSEAT apresenta uma variedade de desafios desde o nível iniciante ao mais aperfeiçoado com o uso das tecnologias HTML, CSS e JavaScript.
 
 
+
 ## 1. Glossário
 
 ### 💻 Sobre o desafio
