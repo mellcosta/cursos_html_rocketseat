@@ -70,8 +70,7 @@ function getScore(score){
 }
 
 console.log(getScore(0))
-getScore(-1)
-getScore(93)
-getScore(81)
-getScore(79)
-getScore(856)
+console.log(getScore(67))
+console.log(getScore(5487))
+console.log(getScore(89))
+console.log(getScore(76))

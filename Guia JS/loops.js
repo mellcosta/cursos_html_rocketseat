@@ -68,6 +68,6 @@ let person= {
     age: 30,
 }           
 
-for(let pro in person) {
-    console.log(pro)
+for(let properties in person) {
+    console.log(properties)
 }
