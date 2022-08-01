@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 100px;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+}
+
+.header a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li{
+    margin-left: 10px;
+}
+.menu li a {
+    display: block; /*coloca  os elementos em hamburguer*/
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 100px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/*CSS Grid 1*/
+
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);/* ou 1fr 1fr 1fr: unidade fracionária (divide 100% p0r 3 =33%*/
+    max-width: 800px;
+    padding: 10px;
+    margin: 0  auto;
+    grid-gap: 20px; /*Espaçamento entre os elementos, no precisa de margin*/
+}
+
+.grid1 > div:nth-child(n + 4){
+    /*seleciona apartir do 4º elemento adiante*/
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    align-items: center;
+}
+
+.grid1 .anunce{
+    grid-column: 1;
+    grid-row: 2 / 5; /*posicionada na linha 2, das 5 existentes...*/
+    border-top: 20px solid red;
+    display: block;
+}
+
+/*Responsividade*/
+
+@media(max-width: 600px) {
+    .grid1{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .grid1 > div:nth-child(n + 4){
+        display: block;
+    }
+    .gid1 .anunce{
+        grid-column: auto;
+        grid-row: auto;
+        order: -1;
+    }
+
+}
