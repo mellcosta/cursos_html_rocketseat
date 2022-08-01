@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+}
+
+.header a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li{
+    margin-left: 10px;
+}
+.menu li a {
+    display: block; /*coloca  os elementos em hamburguer*/
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 100px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/*CSS Flexbox 1*/
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;/*Mesma largura dos outros itens do site*/
+    margin: 0 auto;
+}
+
+.flex figure{
+    flex: 1 1 200px;   /* flex: 1; flex-shrink: 1;flex-basis: 200px;*/
+    margin: 10px;
+}
+                        
