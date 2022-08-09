@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font: normal 15px arial ;
+    color: rgb(47, 46, 46);
+    margin: 20px;
+}
+
+.title{
+    border-bottom: 20px solid gray;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: .8rem;
+}
+
+img{
+   width: 25%;
+   height: 160px;
+
+}

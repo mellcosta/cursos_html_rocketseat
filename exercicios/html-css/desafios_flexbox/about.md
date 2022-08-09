@@ -25,7 +25,7 @@
 * Crie o `<header>` de um site que contenha uma logo e um menu.
 * Um elemento deverá ficar ao lado do outro.
 * A logo ficará no extremo esquerdo e o menu no direito.
-* Os itens do menu ficarão um ao lado do outro.
+* Os itens do menu ficarão um ao lado do outro, com um espaço de .8rem entre eles.
 * O último elemento do menu será um botão decontacto e poderá usar o selector: last-child para estilizar.
 
 
