@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font: normal 15px arial ;
+    color: rgb(47, 46, 46);
+    margin: 20px;
+}
+
+.title{
+    border-bottom: 20px solid gray;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 20px;
+}
+
+.column{
+    background-color: rgb(207, 203, 197);
+    border: 2px solid rgb(154, 153, 153);
+    border-radius: 5px;
+    width: 25%;
+    height: 400px;
+    
+}
+
+.container :nth-child(2){
+    flex-grow: 1;
+}
