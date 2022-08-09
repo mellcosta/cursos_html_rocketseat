@@ -66,5 +66,5 @@
 
 * Crie o `<footer>` de um site que contenha a data de criação do site.
 * Usando flex, alinhe o elemento de footer bem ao meio.
-* Deixe uma alturra de 8rem para o footer.
+* Deixe uma altura de 8rem para o footer.
 * O footer deverá ficar no final da página.

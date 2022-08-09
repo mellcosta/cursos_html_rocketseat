@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font: normal 30px arial ;
+    color: rgb(47, 46, 46);
+    margin: 10px;
+}
+.title{
+    border-bottom: 20px solid gray;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+footer{
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: gray;
+    color: white;
+    height: 8rem;
+}
