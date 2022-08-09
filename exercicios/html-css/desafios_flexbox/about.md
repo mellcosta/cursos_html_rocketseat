@@ -55,7 +55,7 @@
 <img src="assets/button-model.PNG" alt="Modelo Imagem dentro de um botão" width="200px">
 </a>
 
-* Crie um botão que contenha um ícone (img) e um texto.
+* Crie um botão que contenha um [ícone](https://www.iconfinder.com/) (img) e um texto.
 * Coloque um espaço de 4rem entre os elementos.
 
 <h2 id="footer"> 5. Footer</h2>

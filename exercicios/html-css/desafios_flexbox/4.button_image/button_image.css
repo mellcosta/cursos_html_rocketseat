@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font: normal 15px arial ;
+    color: rgb(47, 46, 46);
+    margin: 10px;
+}
+.title{
+    border-bottom: 20px solid gray;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 80px;
+}
+
+button{
+    line-height: 0;
+    display: flex;
+    justify-content: space-aroun;
+    align-items: center;
+    flex-basis: 15%;
+    height: 50px;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    background-color: blueviolet;
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+}
+button:hover{
+    color: aquamarine;
+}
+button img{
+    padding: 20px;
+}
+button:nth-child(2){
+    padding-left: 40px;
+}
