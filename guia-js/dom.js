@@ -64,3 +64,22 @@ body.insertBefore(div, script) // add entre
 
 //Simulando insertAfter
 body.insertBefore(div, script.nextElementSibling)
+
+/* Eventos */
+
+// Mouse
+function clicar() {
+  console.log ('cliquei')
+}
+
+// Teclado
+input.onkeydown = function () {
+  console.log ('escrevi')
+}
+
+// Via JS
+el.addEventListener('click', print)
+function print(){
+  console.log('print')
+}
+
