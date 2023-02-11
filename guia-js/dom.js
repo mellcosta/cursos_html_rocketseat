@@ -1,19 +1,19 @@
 /*
-      * Document Object Model*
+      > Document Object Model <
 -HTML convertido para um  objecto JS
 -API que representa e interage com o HTML
 -Manipula HTML com JS
 
 */ 
 
-//Selecionando Elementos
+/*Selecionando Elementos*/
 
 const el = document.getElementById('title')
 var text = el.textContent
 text = 'Text Content'
 console.log(text)
 
-//Manipulando Conteúdo
+/*Manipulando Conteúdo*/
 
 el.innerText = ' O Inner Text'
 console.log(el.innerText)
@@ -26,7 +26,7 @@ const main = document.querySelector('main')
 main.setAttribute('id', 'main')
 console.log(main)
 
-// Adicionar Estilos via JS
+/*Adicionar Estilos via JS*/ 
 
 el.style.backgroundColor = "#00f"
 
@@ -40,3 +40,9 @@ console.log(body.classList)
 //body.classList.remove('active')
 body.classList.toggle('active')
 
+/* Navegar pelos Elementos */
+
+console.log(body.parentNode)
+console.log(body.children)
+console.log(el.nextElementSibling)
+console.log(input.previousSibling)
