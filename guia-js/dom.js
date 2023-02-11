@@ -45,4 +45,22 @@ body.classList.toggle('active')
 console.log(body.parentNode)
 console.log(body.children)
 console.log(el.nextElementSibling)
-console.log(input.previousSibling)
+console.log(input.previousElementSibling)
+
+/* Criar e Adicionar Elementos */
+
+const div =  document.createElement('div')
+div.innerText = 'Nova div em JS'
+
+const h1 =  document.createElement('h1')
+h1.innerText = 'Novo Título em JS' 
+
+const script =  body.querySelector('script')
+script.innerHTML = 'Novo script' 
+
+body.append(div) //add depois
+body.prepend(h1) // add antes
+body.insertBefore(div, script) // add entre
+
+//Simulando insertAfter
+body.insertBefore(div, script.nextElementSibling)
